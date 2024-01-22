@@ -1,0 +1,62 @@
+form {
+    justify-content: center;
+    background-color: grey;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+#img {
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.container {
+    margin: 20px;
+    background-color: white;
+}
+
+#letter_paid {
+
+    display: flex;
+    border: 1px solid red;
+}
+
+#paid_text {
+    margin-left: 30px;
+    text-align: right;
+    line-height: 0px;
+}
+
+body {
+    background-color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content {
+    font-size: 10px;
+    color: blue;
+}
+.paragraph{
+    text-align: justify;
+}
+.NoDate{
+display: flex;
+}
+.address{
+    margin-left: 100px;
+    line-height: 0px;
+}
+
+.subject{
+    display: flex;
+}

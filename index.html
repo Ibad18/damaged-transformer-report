@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Release</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" method="get" action="damaged.php">
+            <div class="img">
+                <img src="assets/logo.jpeg" id="img" alt="">
+            </div>
+            <h3>Damaged Transformer Report </h3>
+            <hr>
+            <div class="input_field">
+                <p>Damaged or Under Warranty</p>
+                <select id="damaged_or_under_warranty" name="damaged_or_under_warranty">
+                    <option value="DAMAGED">Damaged</option>
+                    <option value="DAMAGED DURING WARRANTY">Under Warranty</option>
+                </select>
+                            </div>
+
+            <div class="input_field">
+                <p>Transformer capacity</p>
+                <select id="capacity" name="capacity">
+                    <option value="200">200</option>
+                    <option value="100">100</option>
+                    <option value="50">50</option>
+                    <option value="25">25</option>
+                </select>
+                            </div>
+            <div class="input_field">
+                <p>Sub Division</p>
+                <select id="sub_division" name="sub_division">
+                    <option value="Daud Zai">Daud Zai</option>
+                    <option value="Gul Bela">Gul Bela</option>
+                    <option value="Naguman">Naguman</option>
+                    <option value="Shahi Bagh">Shahi Bagh</option>
+                    <option value="Warsak-I">Warsak-I</option>
+                    <option value="Warsak-II">Warsak-II</option>
+                </select>
+            </div>
+            <div class="input_field">
+                <p>Location</p>
+                <input type="text" name="location" id="location" required="required">
+            </div>
+            <div class="input_field">
+                <p>SDO Letter No.</p>
+                <input type="text" name="letter_no" id="letter_no" required="required">
+            </div>
+            <div class="input_field">
+                <p>Date</p>
+                <input type="text" name="date" id="date" required="required"><br><br><br>
+            </div>
+            <div style="margin-top: 20px;">
+                <button type="submit" name="submit" class="btn bg-success">Send</button>
+            </div>
+        </form>
+    </div>
+<script>
+    
+</script>
+</body>
+
+</html>

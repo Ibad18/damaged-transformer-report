@@ -1,0 +1,37 @@
+button{
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    width: 295px;
+}
+input{
+    width: 270px;
+    padding: 10px;
+}
+select{
+    width: 295px;
+    padding: 10px;
+}
+form{
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+.input_field{
+    line-height: 0px;
+}
+#img{
+    margin: auto;
+    height: 50px;
+    width: 50px;
+
+}
+.img{
+    width: 20%;
+    margin: auto;
+    align-items: center;
+}
